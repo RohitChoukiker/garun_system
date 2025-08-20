@@ -116,7 +116,7 @@ const BuildingApproval = () => {
       }
       
       // Send to backend
-      const response = await fetch('http://localhost:8000/api/building/approval', {
+      const response = await fetch('https://garun-system-5.onrender.com/api/building/approval', {
         method: 'POST',
         body: formDataToSend,
       });
