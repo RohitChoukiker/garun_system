@@ -95,7 +95,7 @@ const AdminDashboard = () => {
   const fetchAdminData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:8000/api/admin/dashboard');
+      const response = await fetch('https://garun-system-5.onrender.com/api/admin/dashboard');
       if (response.ok) {
         const data = await response.json();
         if (data.success) {
