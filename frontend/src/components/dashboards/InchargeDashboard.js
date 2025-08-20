@@ -270,7 +270,7 @@ const InchargeDashboard = () => {
   const fetchSurveysData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:8000/api/surveys/all');
+      const response = await fetch('https://garun-system-5.onrender.com/api/surveys/all');
       if (response.ok) {
         const data = await response.json();
         if (data.success) {
