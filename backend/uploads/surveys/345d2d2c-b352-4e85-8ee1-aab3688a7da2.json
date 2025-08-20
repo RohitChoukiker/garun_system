@@ -1,0 +1,145 @@
+[
+  {
+    "ward_no": 12,
+    "survey_date": "2025-08-17",
+    "drone_id": "DRN_001",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "roads": [
+      {
+        "road_id": "R001",
+        "length_meters": 520.5,
+        "width_meters": 8.2,
+        "surface_type": "asphalt"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B001",
+        "height_meters": 25.0,
+        "floors": 7,
+        "area_sq_meters": 320.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B002",
+        "height_meters": 12.5,
+        "floors": 3,
+        "area_sq_meters": 150.0,
+        "type": "commercial",
+        "status": "legal"
+      },
+      {
+        "building_id": "B003",
+        "height_meters": 40.0,
+        "floors": 12,
+        "area_sq_meters": 500.0,
+        "type": "residential",
+        "status": "illegal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 12000,
+      "commercial_area_sq_meters": 5000,
+      "green_area_sq_meters": 2500,
+      "industrial_area_sq_meters": 800
+    },
+    "violations": {
+      "illegal_buildings_detected": 1,
+      "encroachment_on_roads": false
+    }
+  },
+  {
+    "ward_no": 15,
+    "survey_date": "2025-08-17",
+    "drone_id": "DRN_002",
+    "coordinates": {
+      "latitude": 22.725,
+      "longitude": 75.86
+    },
+    "roads": [
+      {
+        "road_id": "R002",
+        "length_meters": 400.0,
+        "width_meters": 7.0,
+        "surface_type": "concrete"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B004",
+        "height_meters": 10.0,
+        "floors": 2,
+        "area_sq_meters": 90.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B005",
+        "height_meters": 15.0,
+        "floors": 4,
+        "area_sq_meters": 180.0,
+        "type": "commercial",
+        "status": "illegal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 8000,
+      "commercial_area_sq_meters": 3500,
+      "green_area_sq_meters": 1200,
+      "industrial_area_sq_meters": 600
+    },
+    "violations": {
+      "illegal_buildings_detected": 1,
+      "encroachment_on_roads": true
+    }
+  },
+  {
+    "ward_no": 18,
+    "survey_date": "2025-08-17",
+    "drone_id": "DRN_003",
+    "coordinates": {
+      "latitude": 22.73,
+      "longitude": 75.87
+    },
+    "roads": [
+      {
+        "road_id": "R003",
+        "length_meters": 600.0,
+        "width_meters": 10.0,
+        "surface_type": "asphalt"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B006",
+        "height_meters": 30.0,
+        "floors": 8,
+        "area_sq_meters": 400.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B007",
+        "height_meters": 20.0,
+        "floors": 5,
+        "area_sq_meters": 250.0,
+        "type": "commercial",
+        "status": "legal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 15000,
+      "commercial_area_sq_meters": 7000,
+      "green_area_sq_meters": 3000,
+      "industrial_area_sq_meters": 1000
+    },
+    "violations": {
+      "illegal_buildings_detected": 0,
+      "encroachment_on_roads": false
+    }
+  }
+]

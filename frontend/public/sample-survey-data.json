@@ -1,0 +1,301 @@
+[
+  {
+    "ward_no": 12,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_001",
+    "locality_name": "Vijay Nagar",
+    "area_name": "Indore, Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "roads": [
+      {
+        "road_id": "R001",
+        "length_meters": 520.5,
+        "width_meters": 8.2,
+        "surface_type": "asphalt"
+      },
+      {
+        "road_id": "R002",
+        "length_meters": 320.0,
+        "width_meters": 6.5,
+        "surface_type": "concrete"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B001",
+        "height_meters": 25.0,
+        "floors": 7,
+        "area_sq_meters": 320.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B002",
+        "height_meters": 12.5,
+        "floors": 3,
+        "area_sq_meters": 150.0,
+        "type": "commercial",
+        "status": "legal"
+      },
+      {
+        "building_id": "B003",
+        "height_meters": 40.0,
+        "floors": 12,
+        "area_sq_meters": 500.0,
+        "type": "residential",
+        "status": "illegal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 12000,
+      "commercial_area_sq_meters": 5000,
+      "green_area_sq_meters": 2500,
+      "industrial_area_sq_meters": 800
+    },
+    "violations": {
+      "illegal_buildings_detected": 1,
+      "encroachment_on_roads": false
+    }
+  },
+  {
+    "ward_no": 15,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_002",
+    "locality_name": "Rajendra Nagar",
+    "area_name": "Indore, Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.725,
+      "longitude": 75.86
+    },
+    "roads": [
+      {
+        "road_id": "R003",
+        "length_meters": 400.0,
+        "width_meters": 7.0,
+        "surface_type": "concrete"
+      },
+      {
+        "road_id": "R004",
+        "length_meters": 280.0,
+        "width_meters": 5.5,
+        "surface_type": "asphalt"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B004",
+        "height_meters": 10.0,
+        "floors": 2,
+        "area_sq_meters": 90.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B005",
+        "height_meters": 15.0,
+        "floors": 4,
+        "area_sq_meters": 180.0,
+        "type": "commercial",
+        "status": "illegal"
+      },
+      {
+        "building_id": "B006",
+        "height_meters": 18.0,
+        "floors": 5,
+        "area_sq_meters": 220.0,
+        "type": "residential",
+        "status": "legal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 8000,
+      "commercial_area_sq_meters": 3500,
+      "green_area_sq_meters": 1200,
+      "industrial_area_sq_meters": 600
+    },
+    "violations": {
+      "illegal_buildings_detected": 1,
+      "encroachment_on_roads": true
+    }
+  },
+  {
+    "ward_no": 18,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_003",
+    "locality_name": "Palasia",
+    "area_name": "Indore, Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.73,
+      "longitude": 75.87
+    },
+    "roads": [
+      {
+        "road_id": "R005",
+        "length_meters": 600.0,
+        "width_meters": 10.0,
+        "surface_type": "asphalt"
+      },
+      {
+        "road_id": "R006",
+        "length_meters": 450.0,
+        "width_meters": 8.5,
+        "surface_type": "concrete"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B007",
+        "height_meters": 30.0,
+        "floors": 8,
+        "area_sq_meters": 400.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B008",
+        "height_meters": 20.0,
+        "floors": 5,
+        "area_sq_meters": 250.0,
+        "type": "commercial",
+        "status": "legal"
+      },
+      {
+        "building_id": "B009",
+        "height_meters": 35.0,
+        "floors": 9,
+        "area_sq_meters": 480.0,
+        "type": "mixed",
+        "status": "legal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 15000,
+      "commercial_area_sq_meters": 7000,
+      "green_area_sq_meters": 3000,
+      "industrial_area_sq_meters": 1000
+    },
+    "violations": {
+      "illegal_buildings_detected": 0,
+      "encroachment_on_roads": false
+    }
+  },
+  {
+    "ward_no": 22,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_004",
+    "locality_name": "Scheme 54",
+    "area_name": "Indore, Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.735,
+      "longitude": 75.875
+    },
+    "roads": [
+      {
+        "road_id": "R007",
+        "length_meters": 380.0,
+        "width_meters": 7.5,
+        "surface_type": "asphalt"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B010",
+        "height_meters": 22.0,
+        "floors": 6,
+        "area_sq_meters": 280.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B011",
+        "height_meters": 28.0,
+        "floors": 7,
+        "area_sq_meters": 350.0,
+        "type": "residential",
+        "status": "illegal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 9500,
+      "commercial_area_sq_meters": 2000,
+      "green_area_sq_meters": 1800,
+      "industrial_area_sq_meters": 400
+    },
+    "violations": {
+      "illegal_buildings_detected": 1,
+      "encroachment_on_roads": false
+    }
+  },
+  {
+    "ward_no": 25,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_005",
+    "locality_name": "LIG Colony",
+    "area_name": "Indore, Madhya Pradesh",
+    "coordinates": {
+      "latitude": 22.728,
+      "longitude": 75.865
+    },
+    "roads": [
+      {
+        "road_id": "R008",
+        "length_meters": 520.0,
+        "width_meters": 9.0,
+        "surface_type": "concrete"
+      },
+      {
+        "road_id": "R009",
+        "length_meters": 310.0,
+        "width_meters": 6.0,
+        "surface_type": "asphalt"
+      }
+    ],
+    "buildings": [
+      {
+        "building_id": "B012",
+        "height_meters": 16.0,
+        "floors": 4,
+        "area_sq_meters": 120.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B013",
+        "height_meters": 14.0,
+        "floors": 3,
+        "area_sq_meters": 95.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B014",
+        "height_meters": 19.0,
+        "floors": 5,
+        "area_sq_meters": 140.0,
+        "type": "residential",
+        "status": "legal"
+      },
+      {
+        "building_id": "B015",
+        "height_meters": 12.0,
+        "floors": 3,
+        "area_sq_meters": 85.0,
+        "type": "residential",
+        "status": "legal"
+      }
+    ],
+    "land_usage": {
+      "residential_area_sq_meters": 11000,
+      "commercial_area_sq_meters": 1500,
+      "green_area_sq_meters": 2200,
+      "industrial_area_sq_meters": 300
+    },
+    "violations": {
+      "illegal_buildings_detected": 0,
+      "encroachment_on_roads": false
+    }
+  }
+]

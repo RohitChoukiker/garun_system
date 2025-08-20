@@ -1,0 +1,401 @@
+[
+  {
+    "id": "ILL20250820051618b241404b",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "height_violation",
+    "current_value": 25.0,
+    "allowed_value": 18,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL20250820051618116f0a75",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "floor_violation",
+    "current_value": 7,
+    "allowed_value": 5,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL2025082005161886530f86",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "far_violation",
+    "current_value": 7.0,
+    "allowed_value": 1.5,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL202508200516185f232ea3",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B002",
+    "road_id": null,
+    "violation_type": "far_violation",
+    "current_value": 3.0,
+    "allowed_value": 2.5,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL20250820051618253681f3",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B003",
+    "road_id": null,
+    "violation_type": "height_violation",
+    "current_value": 40.0,
+    "allowed_value": 18,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL202508200516187fd1d403",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B003",
+    "road_id": null,
+    "violation_type": "floor_violation",
+    "current_value": 12,
+    "allowed_value": 5,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL202508200516188fc4d9ff",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": "B003",
+    "road_id": null,
+    "violation_type": "far_violation",
+    "current_value": 12.0,
+    "allowed_value": 1.5,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL2025082005161808176ced",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": null,
+    "road_id": "R001",
+    "violation_type": "road_width_violation",
+    "current_value": 8.2,
+    "allowed_value": 9,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL2025082005161819458efa",
+    "survey_id": "SUR2025082005161846dbb46f",
+    "building_id": null,
+    "road_id": null,
+    "violation_type": "zone_misuse_violation",
+    "current_value": 28.09,
+    "allowed_value": 20,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:16:18.204423",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL20250820051714fa98df8d",
+    "survey_id": "SUR20250820051714817b3a8c",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "height_violation",
+    "current_value": 25.0,
+    "allowed_value": 18,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:14.968262",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL202508200517149950d00f",
+    "survey_id": "SUR20250820051714817b3a8c",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "floor_violation",
+    "current_value": 7,
+    "allowed_value": 5,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:14.968262",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL2025082005171421e61775",
+    "survey_id": "SUR20250820051714817b3a8c",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "far_violation",
+    "current_value": 7.0,
+    "allowed_value": 1.5,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:14.968262",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL20250820051714d245cbd8",
+    "survey_id": "SUR20250820051714817b3a8c",
+    "building_id": null,
+    "road_id": "R001",
+    "violation_type": "road_width_violation",
+    "current_value": 8.2,
+    "allowed_value": 9,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:14.968262",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL20250820051714a3ce9cb4",
+    "survey_id": "SUR20250820051714817b3a8c",
+    "building_id": null,
+    "road_id": null,
+    "violation_type": "zone_misuse_violation",
+    "current_value": 28.09,
+    "allowed_value": 20,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:14.968262",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL202508200517258d202e14",
+    "survey_id": "SUR202508200517258e190192",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "height_violation",
+    "current_value": 25.0,
+    "allowed_value": 18,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:25.466178",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL20250820051725073485e8",
+    "survey_id": "SUR202508200517258e190192",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "floor_violation",
+    "current_value": 7,
+    "allowed_value": 5,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:25.466178",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  },
+  {
+    "id": "ILL202508200517250fb645c1",
+    "survey_id": "SUR202508200517258e190192",
+    "building_id": "B001",
+    "road_id": null,
+    "violation_type": "far_violation",
+    "current_value": 7.0,
+    "allowed_value": 1.5,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:25.466178",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL20250820051725dad31a12",
+    "survey_id": "SUR202508200517258e190192",
+    "building_id": null,
+    "road_id": "R001",
+    "violation_type": "road_width_violation",
+    "current_value": 8.2,
+    "allowed_value": 9,
+    "severity": "medium",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:25.466178",
+    "status": "detected",
+    "action_required": true,
+    "priority": "medium",
+    "estimated_resolution_days": 60
+  },
+  {
+    "id": "ILL202508200517250efda1dc",
+    "survey_id": "SUR202508200517258e190192",
+    "building_id": null,
+    "road_id": null,
+    "violation_type": "zone_misuse_violation",
+    "current_value": 28.09,
+    "allowed_value": 20,
+    "severity": "high",
+    "ward_no": 12,
+    "ward_name": "Ward 12",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "detected_at": "2025-08-20T05:17:25.466178",
+    "status": "detected",
+    "action_required": true,
+    "priority": "high",
+    "estimated_resolution_days": 30
+  }
+]

@@ -1,0 +1,825 @@
+[
+  {
+    "id": "SUR2025082005161846dbb46f",
+    "survey_data": {
+      "ward_no": 12,
+      "survey_date": "2025-08-17",
+      "drone_id": "DRN_001",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        },
+        {
+          "building_id": "B002",
+          "height_meters": 12.5,
+          "floors": 3,
+          "area_sq_meters": 150,
+          "type": "commercial",
+          "status": "legal"
+        },
+        {
+          "building_id": "B003",
+          "height_meters": 40,
+          "floors": 12,
+          "area_sq_meters": 500,
+          "type": "residential",
+          "status": "illegal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "locality_name": "india ",
+      "area_name": "ggghkj",
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:46:17.878Z"
+    },
+    "drone_file_path": "uploads\\surveys\\345d2d2c-b352-4e85-8ee1-aab3688a7da2.json",
+    "drone_data_used": {
+      "ward_no": 12,
+      "survey_date": "2025-08-17",
+      "drone_id": "DRN_001",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        },
+        {
+          "building_id": "B002",
+          "height_meters": 12.5,
+          "floors": 3,
+          "area_sq_meters": 150,
+          "type": "commercial",
+          "status": "legal"
+        },
+        {
+          "building_id": "B003",
+          "height_meters": 40,
+          "floors": 12,
+          "area_sq_meters": 500,
+          "type": "residential",
+          "status": "illegal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "locality_name": "india ",
+      "area_name": "ggghkj",
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:46:17.878Z"
+    },
+    "violations": [
+      {
+        "building_id": "B001",
+        "type": "height_violation",
+        "current": 25.0,
+        "allowed": 18,
+        "severity": "high",
+        "description": "Building height 25.0m exceeds limit of 18m for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "floor_violation",
+        "current": 7,
+        "allowed": 5,
+        "severity": "high",
+        "description": "Building has 7 floors, exceeding limit of 5 for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "far_violation",
+        "current": 7.0,
+        "allowed": 1.5,
+        "severity": "medium",
+        "description": "FAR 7.0 exceeds limit of 1.5 for residential zone"
+      },
+      {
+        "building_id": "B002",
+        "type": "far_violation",
+        "current": 3.0,
+        "allowed": 2.5,
+        "severity": "medium",
+        "description": "FAR 3.0 exceeds limit of 2.5 for commercial zone"
+      },
+      {
+        "building_id": "B003",
+        "type": "height_violation",
+        "current": 40.0,
+        "allowed": 18,
+        "severity": "high",
+        "description": "Building height 40.0m exceeds limit of 18m for residential zone"
+      },
+      {
+        "building_id": "B003",
+        "type": "floor_violation",
+        "current": 12,
+        "allowed": 5,
+        "severity": "high",
+        "description": "Building has 12 floors, exceeding limit of 5 for residential zone"
+      },
+      {
+        "building_id": "B003",
+        "type": "far_violation",
+        "current": 12.0,
+        "allowed": 1.5,
+        "severity": "medium",
+        "description": "FAR 12.0 exceeds limit of 1.5 for residential zone"
+      },
+      {
+        "road_id": "R001",
+        "type": "road_width_violation",
+        "current": 8.2,
+        "allowed": 9,
+        "severity": "medium",
+        "description": "Road width 8.2m is less than minimum 9m for asphalt surface"
+      },
+      {
+        "type": "zone_misuse_violation",
+        "current": 28.09,
+        "allowed": 20,
+        "severity": "high",
+        "description": "Commercial area 28.09% exceeds 20% limit in residential zone"
+      }
+    ],
+    "regulations_used": {
+      "city": "Indore",
+      "year": 2025,
+      "zones": {
+        "residential": {
+          "zone_code": "RES",
+          "building_regulations": {
+            "building_height_limit_meters": 18,
+            "max_floors": 5,
+            "floor_area_ratio": 1.5,
+            "setbacks": {
+              "front_setback_meters": 3,
+              "rear_setback_meters": 2,
+              "side_setback_meters": 1.5
+            },
+            "land_use": "Residential",
+            "road_width_minimum_meters": 9,
+            "parking_requirement": {
+              "car": "1 per 75 sq.m builtup area",
+              "two_wheeler": "1 per 40 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Only for parking, not for commercial",
+            "rooftop_construction": "Allowed only for utilities (water tank, solar panel)",
+            "green_area_minimum_percent": 10
+          }
+        },
+        "commercial": {
+          "zone_code": "COM",
+          "building_regulations": {
+            "building_height_limit_meters": 30,
+            "max_floors": 8,
+            "floor_area_ratio": 2.5,
+            "setbacks": {
+              "front_setback_meters": 5,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2
+            },
+            "land_use": "Commercial",
+            "road_width_minimum_meters": 12,
+            "parking_requirement": {
+              "car": "1 per 50 sq.m builtup area",
+              "two_wheeler": "1 per 30 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking + storage (not retail)",
+            "rooftop_construction": "Allowed for utilities and solar panel only",
+            "green_area_minimum_percent": 5
+          }
+        },
+        "industrial": {
+          "zone_code": "IND",
+          "building_regulations": {
+            "building_height_limit_meters": 25,
+            "max_floors": 6,
+            "floor_area_ratio": 2.0,
+            "setbacks": {
+              "front_setback_meters": 8,
+              "rear_setback_meters": 5,
+              "side_setback_meters": 4
+            },
+            "land_use": "Industrial",
+            "road_width_minimum_meters": 15,
+            "parking_requirement": {
+              "car": "1 per 100 sq.m builtup area",
+              "two_wheeler": "1 per 50 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for storage and utilities",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 8
+          }
+        },
+        "mixed": {
+          "zone_code": "MIX",
+          "building_regulations": {
+            "building_height_limit_meters": 24,
+            "max_floors": 7,
+            "floor_area_ratio": 2.2,
+            "setbacks": {
+              "front_setback_meters": 4,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2.5
+            },
+            "land_use": "Mixed Use",
+            "road_width_minimum_meters": 10,
+            "parking_requirement": {
+              "car": "1 per 60 sq.m builtup area",
+              "two_wheeler": "1 per 35 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking and storage",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 7
+          }
+        }
+      }
+    },
+    "status": "completed",
+    "created_at": "2025-08-20T05:16:18.204423",
+    "ward_no": 12,
+    "survey_date": "2025-08-17",
+    "drone_id": "DRN_001",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "total_violations": 9,
+    "total_buildings": 3,
+    "total_roads": 1,
+    "total_area_sq_meters": 17800.0,
+    "severity_summary": {
+      "high": 5,
+      "medium": 4,
+      "low": 0
+    },
+    "compliance_score": -125.0,
+    "ward_name": "Ward 12",
+    "incharge_id": "INC001",
+    "survey_type": "Field Survey with Drone Data"
+  },
+  {
+    "id": "SUR20250820051714817b3a8c",
+    "survey_data": {
+      "ward_no": 12,
+      "survey_date": "2025-08-19",
+      "drone_id": "DRN_001",
+      "locality_name": "Vijay Nagar",
+      "area_name": "Indore, Madhya Pradesh",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:47:14.955Z"
+    },
+    "drone_file_path": "",
+    "drone_data_used": {
+      "ward_no": 12,
+      "survey_date": "2025-08-19",
+      "drone_id": "DRN_001",
+      "locality_name": "Vijay Nagar",
+      "area_name": "Indore, Madhya Pradesh",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:47:14.955Z"
+    },
+    "violations": [
+      {
+        "building_id": "B001",
+        "type": "height_violation",
+        "current": 25.0,
+        "allowed": 18,
+        "severity": "high",
+        "description": "Building height 25.0m exceeds limit of 18m for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "floor_violation",
+        "current": 7,
+        "allowed": 5,
+        "severity": "high",
+        "description": "Building has 7 floors, exceeding limit of 5 for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "far_violation",
+        "current": 7.0,
+        "allowed": 1.5,
+        "severity": "medium",
+        "description": "FAR 7.0 exceeds limit of 1.5 for residential zone"
+      },
+      {
+        "road_id": "R001",
+        "type": "road_width_violation",
+        "current": 8.2,
+        "allowed": 9,
+        "severity": "medium",
+        "description": "Road width 8.2m is less than minimum 9m for asphalt surface"
+      },
+      {
+        "type": "zone_misuse_violation",
+        "current": 28.09,
+        "allowed": 20,
+        "severity": "high",
+        "description": "Commercial area 28.09% exceeds 20% limit in residential zone"
+      }
+    ],
+    "regulations_used": {
+      "city": "Indore",
+      "year": 2025,
+      "zones": {
+        "residential": {
+          "zone_code": "RES",
+          "building_regulations": {
+            "building_height_limit_meters": 18,
+            "max_floors": 5,
+            "floor_area_ratio": 1.5,
+            "setbacks": {
+              "front_setback_meters": 3,
+              "rear_setback_meters": 2,
+              "side_setback_meters": 1.5
+            },
+            "land_use": "Residential",
+            "road_width_minimum_meters": 9,
+            "parking_requirement": {
+              "car": "1 per 75 sq.m builtup area",
+              "two_wheeler": "1 per 40 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Only for parking, not for commercial",
+            "rooftop_construction": "Allowed only for utilities (water tank, solar panel)",
+            "green_area_minimum_percent": 10
+          }
+        },
+        "commercial": {
+          "zone_code": "COM",
+          "building_regulations": {
+            "building_height_limit_meters": 30,
+            "max_floors": 8,
+            "floor_area_ratio": 2.5,
+            "setbacks": {
+              "front_setback_meters": 5,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2
+            },
+            "land_use": "Commercial",
+            "road_width_minimum_meters": 12,
+            "parking_requirement": {
+              "car": "1 per 50 sq.m builtup area",
+              "two_wheeler": "1 per 30 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking + storage (not retail)",
+            "rooftop_construction": "Allowed for utilities and solar panel only",
+            "green_area_minimum_percent": 5
+          }
+        },
+        "industrial": {
+          "zone_code": "IND",
+          "building_regulations": {
+            "building_height_limit_meters": 25,
+            "max_floors": 6,
+            "floor_area_ratio": 2.0,
+            "setbacks": {
+              "front_setback_meters": 8,
+              "rear_setback_meters": 5,
+              "side_setback_meters": 4
+            },
+            "land_use": "Industrial",
+            "road_width_minimum_meters": 15,
+            "parking_requirement": {
+              "car": "1 per 100 sq.m builtup area",
+              "two_wheeler": "1 per 50 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for storage and utilities",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 8
+          }
+        },
+        "mixed": {
+          "zone_code": "MIX",
+          "building_regulations": {
+            "building_height_limit_meters": 24,
+            "max_floors": 7,
+            "floor_area_ratio": 2.2,
+            "setbacks": {
+              "front_setback_meters": 4,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2.5
+            },
+            "land_use": "Mixed Use",
+            "road_width_minimum_meters": 10,
+            "parking_requirement": {
+              "car": "1 per 60 sq.m builtup area",
+              "two_wheeler": "1 per 35 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking and storage",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 7
+          }
+        }
+      }
+    },
+    "status": "completed",
+    "created_at": "2025-08-20T05:17:14.968262",
+    "ward_no": 12,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_001",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "total_violations": 5,
+    "total_buildings": 1,
+    "total_roads": 1,
+    "total_area_sq_meters": 17800.0,
+    "severity_summary": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "compliance_score": -150.0,
+    "ward_name": "Ward 12",
+    "incharge_id": "INC001",
+    "survey_type": "Manual Field Survey"
+  },
+  {
+    "id": "SUR202508200517258e190192",
+    "survey_data": {
+      "ward_no": 12,
+      "survey_date": "2025-08-19",
+      "drone_id": "DRN_001",
+      "locality_name": "Vijay Nagar",
+      "area_name": "Indore, Madhya Pradesh",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:47:25.156Z"
+    },
+    "drone_file_path": "",
+    "drone_data_used": {
+      "ward_no": 12,
+      "survey_date": "2025-08-19",
+      "drone_id": "DRN_001",
+      "locality_name": "Vijay Nagar",
+      "area_name": "Indore, Madhya Pradesh",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "roads": [
+        {
+          "road_id": "R001",
+          "length_meters": 520.5,
+          "width_meters": 8.2,
+          "surface_type": "asphalt"
+        }
+      ],
+      "buildings": [
+        {
+          "building_id": "B001",
+          "height_meters": 25,
+          "floors": 7,
+          "area_sq_meters": 320,
+          "type": "residential",
+          "status": "legal"
+        }
+      ],
+      "land_usage": {
+        "residential_area_sq_meters": 12000,
+        "commercial_area_sq_meters": 5000,
+        "green_area_sq_meters": 2500,
+        "industrial_area_sq_meters": 800
+      },
+      "violations": {
+        "illegal_buildings_detected": 1,
+        "encroachment_on_roads": false
+      },
+      "incharge_id": "INC001",
+      "zone_type": "residential",
+      "timestamp": "2025-08-19T23:47:25.156Z"
+    },
+    "violations": [
+      {
+        "building_id": "B001",
+        "type": "height_violation",
+        "current": 25.0,
+        "allowed": 18,
+        "severity": "high",
+        "description": "Building height 25.0m exceeds limit of 18m for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "floor_violation",
+        "current": 7,
+        "allowed": 5,
+        "severity": "high",
+        "description": "Building has 7 floors, exceeding limit of 5 for residential zone"
+      },
+      {
+        "building_id": "B001",
+        "type": "far_violation",
+        "current": 7.0,
+        "allowed": 1.5,
+        "severity": "medium",
+        "description": "FAR 7.0 exceeds limit of 1.5 for residential zone"
+      },
+      {
+        "road_id": "R001",
+        "type": "road_width_violation",
+        "current": 8.2,
+        "allowed": 9,
+        "severity": "medium",
+        "description": "Road width 8.2m is less than minimum 9m for asphalt surface"
+      },
+      {
+        "type": "zone_misuse_violation",
+        "current": 28.09,
+        "allowed": 20,
+        "severity": "high",
+        "description": "Commercial area 28.09% exceeds 20% limit in residential zone"
+      }
+    ],
+    "regulations_used": {
+      "city": "Indore",
+      "year": 2025,
+      "zones": {
+        "residential": {
+          "zone_code": "RES",
+          "building_regulations": {
+            "building_height_limit_meters": 18,
+            "max_floors": 5,
+            "floor_area_ratio": 1.5,
+            "setbacks": {
+              "front_setback_meters": 3,
+              "rear_setback_meters": 2,
+              "side_setback_meters": 1.5
+            },
+            "land_use": "Residential",
+            "road_width_minimum_meters": 9,
+            "parking_requirement": {
+              "car": "1 per 75 sq.m builtup area",
+              "two_wheeler": "1 per 40 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Only for parking, not for commercial",
+            "rooftop_construction": "Allowed only for utilities (water tank, solar panel)",
+            "green_area_minimum_percent": 10
+          }
+        },
+        "commercial": {
+          "zone_code": "COM",
+          "building_regulations": {
+            "building_height_limit_meters": 30,
+            "max_floors": 8,
+            "floor_area_ratio": 2.5,
+            "setbacks": {
+              "front_setback_meters": 5,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2
+            },
+            "land_use": "Commercial",
+            "road_width_minimum_meters": 12,
+            "parking_requirement": {
+              "car": "1 per 50 sq.m builtup area",
+              "two_wheeler": "1 per 30 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking + storage (not retail)",
+            "rooftop_construction": "Allowed for utilities and solar panel only",
+            "green_area_minimum_percent": 5
+          }
+        },
+        "industrial": {
+          "zone_code": "IND",
+          "building_regulations": {
+            "building_height_limit_meters": 25,
+            "max_floors": 6,
+            "floor_area_ratio": 2.0,
+            "setbacks": {
+              "front_setback_meters": 8,
+              "rear_setback_meters": 5,
+              "side_setback_meters": 4
+            },
+            "land_use": "Industrial",
+            "road_width_minimum_meters": 15,
+            "parking_requirement": {
+              "car": "1 per 100 sq.m builtup area",
+              "two_wheeler": "1 per 50 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for storage and utilities",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 8
+          }
+        },
+        "mixed": {
+          "zone_code": "MIX",
+          "building_regulations": {
+            "building_height_limit_meters": 24,
+            "max_floors": 7,
+            "floor_area_ratio": 2.2,
+            "setbacks": {
+              "front_setback_meters": 4,
+              "rear_setback_meters": 3,
+              "side_setback_meters": 2.5
+            },
+            "land_use": "Mixed Use",
+            "road_width_minimum_meters": 10,
+            "parking_requirement": {
+              "car": "1 per 60 sq.m builtup area",
+              "two_wheeler": "1 per 35 sq.m builtup area"
+            }
+          },
+          "special_restrictions": {
+            "basement_usage": "Allowed for parking and storage",
+            "rooftop_construction": "Allowed for utilities and solar panel",
+            "green_area_minimum_percent": 7
+          }
+        }
+      }
+    },
+    "status": "completed",
+    "created_at": "2025-08-20T05:17:25.466178",
+    "ward_no": 12,
+    "survey_date": "2025-08-19",
+    "drone_id": "DRN_001",
+    "coordinates": {
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
+    "total_violations": 5,
+    "total_buildings": 1,
+    "total_roads": 1,
+    "total_area_sq_meters": 17800.0,
+    "severity_summary": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "compliance_score": -150.0,
+    "ward_name": "Ward 12",
+    "incharge_id": "INC001",
+    "survey_type": "Manual Field Survey"
+  }
+]
