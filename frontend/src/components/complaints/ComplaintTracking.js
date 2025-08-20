@@ -102,7 +102,7 @@ const ComplaintTracking = () => {
     setLoading(true);
     
     try {
-      const response = await fetch(`http://localhost:8000/api/complaints/track/${complaintId.trim()}`);
+      const response = await fetch(`https://garun-system-5.onrender.com/api/complaints/track/${complaintId.trim()}`);
       
       if (!response.ok) {
         if (response.status === 404) {
