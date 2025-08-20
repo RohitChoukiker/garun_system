@@ -154,7 +154,7 @@ const ComplaintForm = () => {
       }
       
       // Send to backend
-      const response = await fetch('http://localhost:8000/api/complaints/register', {
+      const response = await fetch('https://garun-system-5.onrender.com/api/complaints/register', {
         method: 'POST',
         body: formDataToSend,
       });
