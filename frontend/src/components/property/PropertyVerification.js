@@ -113,7 +113,7 @@ const PropertyVerification = () => {
       }
       
       // Send to backend
-      const response = await fetch('http://localhost:8000/api/property/verify', {
+      const response = await fetch('https://garun-system-5.onrender.com/api/property/verify', {
         method: 'POST',
         body: formDataToSend,
       });
