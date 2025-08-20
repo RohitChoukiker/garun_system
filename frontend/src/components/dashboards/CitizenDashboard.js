@@ -69,7 +69,7 @@ const CitizenDashboard = () => {
       setLoading(true);
       
       // Fetch user complaints
-      const complaintsResponse = await fetch(`http://localhost:8000/api/complaints/user/${user.contactNumber}`);
+      const complaintsResponse = await fetch(`https://garun-system-5.onrender.com/api/complaints/user/${user.contactNumber}`);
       if (complaintsResponse.ok) {
         const complaintsData = await complaintsResponse.json();
         const userComplaintsData = complaintsData.complaints || [];
@@ -91,7 +91,7 @@ const CitizenDashboard = () => {
       }
 
       // Fetch user property verifications
-      const propertyResponse = await fetch(`http://localhost:8000/api/property/user/${user.contactNumber}`);
+      const propertyResponse = await fetch(`https://garun-system-5.onrender.com/api/property/user/${user.contactNumber}`);
       if (propertyResponse.ok) {
         const propertyData = await propertyResponse.json();
         const userPropertyData = propertyData.verifications || [];
@@ -109,7 +109,7 @@ const CitizenDashboard = () => {
       }
 
       // Fetch user building approvals
-      const buildingResponse = await fetch(`http://localhost:8000/api/building/user/${user.contactNumber}`);
+      const buildingResponse = await fetch(`https://garun-system-5.onrender.com/api/building/user/${user.contactNumber}`);
       if (buildingResponse.ok) {
         const buildingData = await buildingResponse.json();
         const userBuildingData = buildingData.approvals || [];
